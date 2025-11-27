@@ -2,17 +2,26 @@
   "name": "envio-de-email-lista-4",
   "version": "1.0.0",
   "description": "lista 4 dotenv e nodemailer",
+  "homepage": "https://github.com/SalesOR/nodemailer#readme",
+  "bugs": {
+    "url": "https://github.com/SalesOR/nodemailer/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SalesOR/nodemailer.git"
+  },
+  "license": "ISC",
+  "author": "rafael sales",
+  "type": "commonjs",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "rafael sales",
-  "license": "ISC",
   "dependencies": {
     "dotenv": "^17.2.3",
     "ejs": "^3.1.10",
     "express": "^5.1.0",
-    "express-validator": "^7.3.0",
-    "nodemailer": "^7.0.10"
+    "express-validator": "^7.3.1",
+    "nodemailer": "^7.0.11"
   }
 }
